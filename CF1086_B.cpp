@@ -1,17 +1,13 @@
-include<bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
-
-
 class Solution{
-
 public:
-	int A()
+	int S()
 	{
-		int n;
-		cin>>n;
-		if(n<4)return n;
-		return n%2;
+		int s,k,m;
+		cin>>s>>k>>m;
+		
 	}
 };
 
@@ -26,6 +22,6 @@ int main() {
     {
 
     Solution sol;
-    cout<<sol.A()<<endl;
+    cout<<sol.S()<<endl;
     }
 }
